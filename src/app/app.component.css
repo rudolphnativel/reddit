@@ -1,0 +1,64 @@
+body,html {
+  width: 100%;
+}
+article+input{
+  margin: 2em auto;
+}
+article>button {
+  margin: 2em auto;
+}
+
+nav{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  color: bisque;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+fieldset{
+  /* display: flex;
+  justify-content: space-around; */
+  background-color: rgb(59, 168, 37);
+  border-radius: 1em;
+  margin: 1em auto;
+  width: 60%;
+}
+
+fieldset div {
+   display: inline;
+}
+
+input {
+  border-radius: 0.4em;
+  background-color: rgb(25, 0, 255);
+  color: white;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+button{
+  border-radius: 0.8em;
+  font-size: large;
+  background-color:  rgb(25, 0, 255);
+  color: white;
+  padding: 0.5em;
+  margin: 1em;
+  transition: all 1000ms;
+}
+button:hover {
+  background-color: red;
+  transition: all 1000ms;
+}
+legend {
+  font-size: large;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-decoration: red underline;
+  background-color: rgba(255, 255, 255, 0.774);
+}
+

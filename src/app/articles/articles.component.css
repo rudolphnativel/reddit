@@ -1,0 +1,28 @@
+
+fieldset {
+  width: 50%;;
+  border-radius: 1em;
+  background-color: rgba(0, 128, 75, 0.63);
+  margin: 2em auto;
+}
+button{
+  border-radius: 0.8em;
+  background-color:  rgb(25, 0, 255);
+  font-size: large;
+  color: white;
+  padding: 0.5em;
+  margin: 1em;
+  transition: all 1000ms;
+}
+button:hover {
+  background-color: red;
+  transition: all 1000ms;
+}
+
+legend {
+  font-size: large;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  text-decoration: red underline;
+  background-color: rgba(255, 255, 255, 0.774);
+}
